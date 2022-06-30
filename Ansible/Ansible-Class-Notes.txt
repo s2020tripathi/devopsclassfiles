@@ -63,7 +63,7 @@ https://www.youtube.com/watch?reload=9&v=YI48bKykx7k
 https://www.youtube.com/watch?v=4nKW2eF-nIw
 https://www.youtube.com/watch?v=XJpN8qpxWbA
 
-
+https://www.middlewareinventory.com/blog/ansible-ad-hoc-commands/#ex3 #imp command here and how to use
 
 https://www.devopsschool.com/courses/ansible/ansible-advance-training.html
 
