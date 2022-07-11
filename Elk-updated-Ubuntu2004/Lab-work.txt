@@ -15,6 +15,10 @@ Example-2 : upload csv file
 	root@elk:~# cp crimes_2001.csv /home/ubuntu
 	#ls -al /home/ubuntu  (see the file here)
 	
+	****If u r azure user******
+	root@elk:~# cp crimes_2001.csv /home/azureuser
+	# ls -al /home/azureuser
+	
 
 
         vi /etc/logstash/conf.d/crimes.conf
