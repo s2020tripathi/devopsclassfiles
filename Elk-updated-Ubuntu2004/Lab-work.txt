@@ -9,6 +9,12 @@ Example-2 : upload csv file
 	wget https://raw.githubusercontent.com/PacktPublishing/Kibana-7-Quick-Start-Guide/master/Chapter02/crimes_2001.csv
 	
 	root@elk:~# cp crimes_2001.csv /home/vagrant/
+	
+	 ***If u r ubuntu user then run command:-***
+	
+	root@elk:~# cp crimes_2001.csv /home/ubuntu
+	#ls -al /home/ubuntu  (see the file here)
+	
 
 
         vi /etc/logstash/conf.d/crimes.conf
