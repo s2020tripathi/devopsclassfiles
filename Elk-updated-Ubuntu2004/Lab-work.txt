@@ -28,7 +28,10 @@ input {
 	file {
 		path => "/home/vagrant/crimes_2001.csv"
 		start_position => beginning
-	}
+	                                                      (if we r ubuntu user then use path===== path => "/home/ubuntu/crimes_2001.csv" , if we azureuser then use
+									path => "/home/azureuser/crimes_2001.csv" 
+									
+		}
 }
 filter {
 	csv {
