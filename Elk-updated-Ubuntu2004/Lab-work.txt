@@ -25,13 +25,11 @@ Example-2 : upload csv file
 
 # Logstash configuration file to read CSV data. Add Elasticsearch username and password if you have configured the security.
 input {
-	file {
+	file {               						###(if we r ubuntu user then use path===== path => "/home/ubuntu/crimes_2001.csv" , 
+							                         if we azureuser ====path => "/home/azureuser/crimes_2001.csv"### 
 		path => "/home/vagrant/crimes_2001.csv"
 		start_position => beginning
-	                                                      (if we r ubuntu user then use path===== path => "/home/ubuntu/crimes_2001.csv" , if we azureuser then use
-									path => "/home/azureuser/crimes_2001.csv" 
-									
-		}
+	       }                                                       
 }
 filter {
 	csv {
